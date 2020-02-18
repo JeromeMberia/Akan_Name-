@@ -1,9 +1,10 @@
 # Akan Name
 # Jerome Mberia
 ## Description
-![]()
+![](Screenshot.png)
 
-## Technologies Used
+## Technologies Used:
+
 1.HTML
 2.CSS
 3.Markdown
