@@ -52,7 +52,7 @@ body{
   color: #fff;
 }
 
-.box input [type="button"]{
+.box input [type="submit"]{
   background: transparent;
   border: none;
   outline: none;
