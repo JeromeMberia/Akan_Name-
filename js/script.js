@@ -12,11 +12,9 @@ function output() {
 
   if (gender === "male") {
     alert('Your akan name is ' + maleNames[birthday]);
-  };
-    else if (gender === "female"); {
+  }else if (gender === "female") {
     alert('Your name is ' + femaleName[birthday]);
+  }else {
+      alert("enter a proper gender")
   };
-    else {
-      alert("enter a proper gender");
-  }
-}
+};
