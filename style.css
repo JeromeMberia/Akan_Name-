@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../image/annie-spratt-cVEOh_JJmEE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.box{
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  background: rgb(0,0,0,.8);
+  box-shadow: 0 15px 25px rgb(0,0,0,.5);
+  border-radius: 10px;
+}
+.box h1{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .inputBox{
+  position: relative;
+}
+.box .inputBox input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+
+.jumbotrn{
+  background-color: rgb(253, 253, 253);
+  margin: 0;
+  padding: 0em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.box label{
+  color: #fff;
+}
+
+.box input [type="submit"]{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 5px;
+}
